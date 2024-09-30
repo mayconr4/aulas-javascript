@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe geral do js</title>
+</head>
+<body> 
+    <h1>Começando com JavaScript</h1>
+    <hr>
+
+    <script> 
+    // CTRL; (comentario de linha unica)
+    //* SHIFT ALT A  comentario de multiplas linhas*/
+     
+
+    // comando de saida (util pra teste basicos como tentar usar um backgorund color para testes)
+        console.log("Hello world!"); 
+       
+        /* Manipulação de dados na MEMORIA 
+        
+        Criação de espaços na memoria ram do computafor 
+        atraveés de variaveis e/ou CONSTANTES. 
+        
+        
+        Variavel: declaradas com a palavara-chave let.  
+        constante: declaradas com a palavra-chave const.*/ 
+
+        // DECLARAÇÃO (criando na memoria RAM) sinal de = siginifica atribuiçao ao valor da sua varisvel ou constante
+        let ano = 2024;
+        const aluno = "maycon"; 
+
+        // SAIDA (acessando/exibindo/usando no console)
+        console.log(ano);
+        console.log(aluno); 
+
+
+        /*  Declarando uma relação de variaveis:
+        Elas ininciam sem valor atribuido, portanto,
+        são consideradas indefinidas (undefined) */
+        
+        let teste1, teste2, teste3;
+
+        console.log(teste2);
+      
+        /* Atribuindo valores ás variaveis */
+        teste1 = "Exemplo 1";
+
+        console.log(teste1); 
+        
+        // trabalhando com valores numericos
+        let valor1 = 10; //inteiro 
+        let valor2 = 5;  // inteiro
+        let valor3 = 1200.55 ; // decimal, "quebrado" 
+
+        // operações basicas
+        let soma = valor1 + valor2;
+        let subtracao = valor1 - valor2;
+        let multiplicacao = valor1 * valor2;
+        let divisao = valor1 / valor2; 
+
+        // Exemplo de função matematica = math
+        let resultado = Math.sqrt(soma); 
+        console.log(resultado);
+        
+
+        console.log("divisão: "+divisao); //divisão:2
+        console.log("multiplicação: "+multiplicacao); //Multiplicação:50
+        console.log("subtração: "+subtracao);//subtracao:5
+        console.log("soma: "+soma); //soma:15
+
+
+        /* Saida de dados personalizada 
+        frase para o exemplo:
+        Olá! me chamo maycon e não vejo a hora de acabar o ano de 2024. */
+
+        // Forma 1: CONCATENAÇÃO (tradicional, antiga)
+        console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+"."); 
+
+
+        // Forma 2: TEMPLATE    literal/string (moderna) 
+       console.log(`Olá! me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}.`);
+       
+      
+        
+        
+        
+        
+        
+
+
+
+    </script>
+</body>
+</html>
