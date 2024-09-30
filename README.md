@@ -30,4 +30,13 @@ Introdução ao javascipt para uso básico.
  Programação feita dentro de arquivos Java Script exclusivos
  (Possuem a extensão **.js**), usada principalmente quando queremos reutilizar scripts entre paginas HTML diferentes. A ligação entre o arquivo JavaScript e á pagina HTML também é feita usando a tag `script`. É a forma mais recomendada. 
 
- **Obs.:** Normalmente a programação feita (ou ligada) **NO FINAL** pagina html, portanto, pouco antes do fechamento `</body>`
+ **Obs.:** Normalmente a programação feita (ou ligada) **NO FINAL** pagina html, portanto, pouco antes do fechamento `</body>` 
+
+ --- 
+
+
+ ### Sobre Arrays
+
+ Arrays são estrutura de dados **indexados**, também conhecidos como **vetores** ou **matrizes**.
+
+ Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/indice do array.
