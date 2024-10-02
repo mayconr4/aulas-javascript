@@ -39,4 +39,6 @@ Introdução ao javascipt para uso básico.
 
  Arrays são estrutura de dados **indexados**, também conhecidos como **vetores** ou **matrizes**.
 
- Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/indice do array.
+ Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/indice do array. 
+
+ **obs** a contagem de elemntos do array **sempre inicia em zero**
