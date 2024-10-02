@@ -50,4 +50,4 @@ Introdução ao javascipt para uso básico.
  Objeto também são etrtura de dados só que **não indexados**,
  ou seja , o acesso aos dados é feito de froma diferente do que vimos nos arrays. no objeto, acessamos através de **propriedades**  e **valores** declarados dentro do objeto. 
 
- Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real. 
+ Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real. **Lebron James**
