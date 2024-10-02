@@ -10,7 +10,7 @@ Introdução ao javascipt para uso básico.
 - Mas também pode ser usada no back-end através de plataformas como o node.js por exemplo
 - Até mesmo no nicho de apps mobile, o js também pode er usado (React, Next.js, React Native etc.)
 
-## Onde usar o JS dentro do Fron-End?
+## Onde usar o JS dentro do Front-End?
 
 - Funcionalidades de menu responsivo
 - galeria de fotos
