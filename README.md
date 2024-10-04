@@ -70,3 +70,11 @@ Introdução ao javascipt para uso básico.
  - Menor ou igual <=
  - Igualdade    ==
  - Diferença    != 
+
+ --- 
+
+ ### Sobre comandos de repetição 
+
+ São estrturas /comandos que permitem a execução repetidas vezes de uma ou mais ações/ comandos/operações. Também conhecidos como **Loops** ou **laços de repetição**. 
+
+ A quantidade de vezes que o loop srá executado dependará de alguma lógica ou condição definida pelo programador ou pelo sistema/aplicação. Também é comun que, para que o loop pare de xecutar, seja definida uma variavel de controle de repetição.
