@@ -50,7 +50,7 @@ const livros = [
 // Acessando através do indice a propridade.
 console.log(livros[1].autor); 
 
-// exercicio 
+// exercicio  
 
 
 

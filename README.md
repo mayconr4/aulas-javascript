@@ -50,4 +50,23 @@ Introdução ao javascipt para uso básico.
  Objeto também são etrtura de dados só que **não indexados**,
  ou seja , o acesso aos dados é feito de froma diferente do que vimos nos arrays. no objeto, acessamos através de **propriedades**  e **valores** declarados dentro do objeto. 
 
- Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real. **Lebron James**
+ Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real.  
+
+ --- 
+
+ ## Sobre condicionais
+
+ São estrturas /comandos que permitem analisar uma ou mais condições  dentro de uma aplicação.
+
+ De acordo com o resultado desta analise, podendo ser **verdadeiro/true** ou **falso/false**, a aplicação poderá fazer ações diferentes. 
+
+ ## Operadores relacionais 
+
+ Ao trabalhar com condicionais, é comun utilizar operaçoes relacionais para comparações dentro das condições. Os operadores mais comun são: 
+
+ - Maior que    > 
+ - Menor que    <
+ - Maior igual  >=
+ - Menor ou igual <=
+ - Igualdade    ==
+ - Diferença    != 
