@@ -70,7 +70,53 @@ for(const prop in pessoa ){
     // Mostra somente o nome da propriedade
     console.log(prop);
     
-    // Mostra somente o vslor da propriedade
-    console.log(pessoa[prop]);
+    // Mostra somente o valor da propriedade /* mostra o objeto junto com o valor desse objeto de exemplo idade: 17
+    console.log(pessoa[prop]);     
+} 
+
+console.log("---\n"); 
+
+/* Exercicio
+1 faça um array chamado "clientes" contendo 3 objetos. cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Goku ", "  Naruto", " Shiryu" ).  
+
+2 Faça um loop (qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir:
+- Cliente: Goku, id: 1
+- Cliente: Naruto, id: 2
+- Cliente: Shiryu, id:3*/
+
+const clientes = [
+    {       
+     nome:"Goku",
+     identificador: 1 
+    }, 
+
+    {
+     nome:"Naruto",
+     identificador:2
+    }, 
+
+    {
+     nome:"Shiryu",
+     identificador:3
+    }
+] ;    
+
+
+
+for( const cliente of clientes){  //não usar colchetes para acessar o valor no FOR OF importante lembrar disso
+
+    // console.log(clientes);
+
+    // TEMPLATE STRING É = O USO DE CRASES 
+    console.log(`Cliente: ${cliente.nome}, id: ${cliente.identificador} `); 
+  
     
+    
+   
 }
+
+
+
+// for(){}
+
+
